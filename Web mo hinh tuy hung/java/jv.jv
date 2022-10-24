@@ -1,0 +1,4 @@
+function (){
+    var ele = elements.value;
+    document.getElementById('results').innerHTML =  `Giá Trị ${ele}`;
+}

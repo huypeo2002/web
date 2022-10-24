@@ -1,0 +1,166 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    min-width: 100%;
+    min-height: 300px;
+}
+body{
+    width: 95%;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 300px;
+    padding-top: 150px ;
+    padding-left: 120PX;
+    font-size:200%;
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    
+    background-color: aqua;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 15px rgb(110, 117, 113);
+    animation: doimauchu1 reverse 1s infinite;
+    color:yellow ; 
+}
+
+header >h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position:left ;
+    
+}
+
+@keyframes doimauchu1{
+    form{color:aqua(172, 209, 24);}
+     to{color:crimson ;}
+}
+
+DIV>  h3{
+    padding: 10px;
+    font-size: 25px;
+    color: aqua;
+    min-width: 120px;    
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: red;
+}
+
+NAV{
+    font-size: 25PX;
+    margin: 15PX ;
+    padding: 15PX ;
+    animation: doimauchu2 forwards 1s infinite;
+}
+
+nav > marquee {
+    background-color: aliceblue;
+    color: coral;
+    font-size: 20;
+    margin: 15PX ;
+    padding: 15PX ;
+    
+}
+
+NAV>MARQUEE>p{
+    animation: doimauchu2 forwards 1s infinite;
+}
+@keyframes doimauchu2{
+    form{color:chartreuse(172, 209, 24);}
+     to{color:coral ;}
+}
+
+
+SECTION{
+    margin-top: 50PX ;
+}
+section > DIV {
+    padding: 5PX ;
+    margin: PX;
+}
+
+table{
+    width: 100%;
+    background-color: aquamarine;
+    padding: 2%;
+    border-style: inset;
+    box-sizing: 150PX;
+    font-size: 25px;
+}
+
+select{
+    border: black;
+    margin: 12px ;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 250px;    
+    margin-top: 10px;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+input[type="submit"],input[type="reset"]{
+    display: table-row;
+    min-width: 150px;
+    margin-TOP: 25px;
+    margin-left: 300PX ;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    justify-content: space-between;
+    color: aqua;
+    background-color: red;
+}
+
+input[type="submit"]:hover ,[type="reset"]:hover{
+    display: table-row;
+    min-width: 150px;
+    margin-TOP: 25px;
+    margin-left: 300PX ;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    justify-content: space-between;
+    color: red;
+    background-color:aqua;
+    animation: doimauchu2 both 1s infinite;
+}
+@keyframes doimauchu2{
+    form{color:chartreuse(172, 209, 24);}
+     to{color:coral ;}
+}
+
+div.OUTPUT{
+    list-style-type: none;  
+}
+
+.KS_TOT,.KS_TB,.KS_THAP{
+   color: chartreuse;
+    font-weight: bolder;
+    text-shadow: 15px 15px 15px darkgray;
+    font-style: oblique;
+    font-size: 30px ;
+    padding: 15px ;
+    margin: 15px ;
+    animation: doimauchu2 both 1s infinite;
+    padding-left: 500px;
+   
+}
+@keyframes doimauchu2{
+    form{color:chartreuse(172, 209, 24);}
+     to{color:coral ;}
+}
+footer{
+    margin: 10px;
+    padding: 100px;
+    background-color: aqua;
+}
